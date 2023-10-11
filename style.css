@@ -1,0 +1,133 @@
+body{
+    font-size: x-large;
+    margin:0;
+    padding:0;
+    font-family: "Merriweather",serif;
+}
+.top-container{
+    position: relative;
+    padding-top: 250px;
+    height: 700px;
+    
+    background-color:#FDF0F0;
+    text-align: center;
+    color:#F1B4BB; 
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.cld1{
+    position: absolute;
+    height:8rem;
+    top:100px;
+    right:50px;
+}
+.cld2{
+    position: absolute;
+    height:6rem;
+    top:500px;
+    left:70px;
+}
+.cld3{
+    position: absolute;
+    height:3rem;
+    top:80px;
+    left:200px;
+}
+
+
+
+
+
+
+
+
+
+div{
+    display: block;
+}
+.bottomcontainer{
+    background-color: #132043;
+    margin-top: 100px;
+
+    padding:120px 0 120px;
+}
+
+.bottomcontainer a{
+    margin:20px 10px 20px 10px;
+}
+svg{
+    color: #F1B4BB;
+}
+.cont2{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    width: 70%;
+    margin:100px auto 0px auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 0px;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family:"Sacramento",cursive ;
+    font-weight: bold;
+    
+}
+.cont1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.prj{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+}
+.mid-container{
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+.profile{
+    margin-top: 70px;
+    border-radius: 50%;
+    height:200px
+}
+h2.pt-2{
+    color: #132043;   
+}
+.contactme{
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #FDF0F0;
+    text-align: center;
+}
+.contactme h2{
+    color: #1F4172;
+    padding: 10px;
+
+}
+.contactme h3{
+    color: #132043;
+    padding: 20px;
+}
+.contactme a{
+    background-color: #132043;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color:#F1B4BB;
+    
+}
+.content h3{
+    color: #F1B4BB;
+}
